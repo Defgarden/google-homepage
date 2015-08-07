@@ -3,7 +3,10 @@ body{
 }
 
 .navbar{
-	margin: auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
 	text-align: right;
 }
 
@@ -17,10 +20,39 @@ body{
 
 .logobox{
 	margin: auto;
+	margin-top: 80px;
+	height: 231px;
 	text-align: center;
 }
 
+#logo{
+	height: 95px;
+	width: 269px;
+	padding-top: 112px;
+}
+
+.sb-outline{
+	border: 1px solid #d9d9d9;
+	max-width: 484px;
+	margin: auto;
+	line-height: 0;
+}
+
+#searchbar{
+	width: 437px;
+	height: 19.1875px;
+	padding: 4px 38px 4px 9px;
+	border: none;
+	position: relative;
+	line-height: 1.2em;
+	font: 16px arial,sans-serif;
+	box-shadow: none;
+	}
+
 .inputs{
 	margin: auto;
+	height: 102px;
 	text-align: center;
+	padding-left: 173px;
+	padding-right: 173px;
 }
