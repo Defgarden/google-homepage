@@ -1,0 +1,26 @@
+body{
+
+}
+
+.navbar{
+	margin: auto;
+	text-align: right;
+}
+
+.navbar ul{
+	list-style: none;
+}
+
+.navbar ul li{
+	display: inline;
+}
+
+.logobox{
+	margin: auto;
+	text-align: center;
+}
+
+.inputs{
+	margin: auto;
+	text-align: center;
+}
