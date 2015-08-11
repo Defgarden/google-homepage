@@ -6,8 +6,56 @@ body{
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: 100%;
+	width: 362px;
+	height: 30px;
 	text-align: right;
+	line-height: 30px;
+}
+
+li{
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;
+	text-align: left;
+}
+
+.lineitem{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin-right: auto 10px auto 0;
+	vertical-align: baseline;
+}
+
+#square{
+	color: #000;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	background-position: -132px -38px;
+    opacity: .55;
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_0430b5ba.png);
+    background-size: 528px 68px;
+    box-sizing: border-box;
+    outline: none;
+    margin-right: 10px;
+
+}
+
+#notify{
+	border-radius: 100%;
+	height: 30px;
+	width: 30px;
+	background-color: red;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+#photo{
+	border-radius: 100%;
+	display: inline;
+	margin-right: 10px;
 }
 
 .navbar ul{
@@ -33,21 +81,37 @@ body{
 
 .sb-outline{
 	border: 1px solid #d9d9d9;
-	max-width: 484px;
+	max-width: 571px;
 	margin: auto;
 	line-height: 0;
+	height: 28px;
+}
+
+.sb-outline:focus{
+	border-color: #4285F4;
+	outline: none;
 }
 
 #searchbar{
-	width: 437px;
-	height: 19.1875px;
+	float: left;
+	width: 524px;
+	height: 20px;
 	padding: 4px 38px 4px 9px;
 	border: none;
 	position: relative;
 	line-height: 1.2em;
 	font: 16px arial,sans-serif;
 	box-shadow: none;
+	margin-right: -29px;
 	}
+
+
+#searchmic{
+	padding-top: 6px;	
+	opacity: 0.6;
+	vertical-align: middle;
+	display: inline;
+}
 
 .inputs{
 	margin: auto;
@@ -55,4 +119,28 @@ body{
 	text-align: center;
 	padding-left: 173px;
 	padding-right: 173px;
+}
+
+.button-box{
+	height: 60px;
+    text-align: center;
+    padding: 15px;
+}
+
+.buttons{
+	min-width: 96px;
+	height: 29px;
+	padding: 0 8px;
+	margin: 0 10px;
+	border-radius: 2px;
+    color: #444;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 27px;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    -webkit-user-select: none;
+    background-color: #f5f5f5;
+    border: 2px outset buttonface;
 }
